@@ -19,8 +19,8 @@ public class Ex4a {
 		dblMNet=dblMBrut*(intTVA/100)+dblMBrut;			//si on met la parenthese et que int est divise en 100 cela donne "0" pas double :))
 		dblMNet=dblMBrut*intTVA/100+dblMBrut;			//ici il fait le brut *21 et ensuite divise en 100 avec la variable double 
 														//correct
-		
-		System.out.println("Pour le prix brut de "+dblMBrut+" €, le prix net est de "+ DfFormat1.format(dblMNet)+" €.");
+		System.out.println("Pour le prix brut de "+dblMBrut+" €, le prix net est de "+ dblMNet+" €.");
+		System.out.println("Pour le prix brut de "+dblMBrut+" €, le prix net est de "+ DfFormat1.format(dblMNet)+" €.");		//avec 2décimal
 	}
 
 }
