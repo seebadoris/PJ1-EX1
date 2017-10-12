@@ -9,7 +9,7 @@ public class ExP43 {
 		 
 
 		intMaVariableInt = 156000;		//en binaire 100110000101100000 sachant que le int peut avoir 32bits
-		dblMaVariableDouble=3.5; 
+		dblMaVariableDouble=3.5; 	//il s arrete avant la virgule, pas d arrondi.
 		
 		shMaVariableShort = (short)intMaVariableInt;	//Le short ne peut contenir que 16bits donc de l'int precedent (100110000101100000)
 														//on ne peut prendre que les 16premieres bits (0110000101100000)

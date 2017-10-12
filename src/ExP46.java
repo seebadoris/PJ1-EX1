@@ -31,10 +31,19 @@ public class ExP46 {
 		
 		System.out.println(strNom.charAt(3));
 		
+		System.out.println(strNom.concat("\nBienvenu"));
 		
+		System.out.println("Contenu de la variable :" +strNom);
 		
+		strNom=strNom+"\nBienvenu";
+		System.out.println("Contenu de la variable : "+strNom);
 		
+		strNom="Le Passe Temps";
+		System.out.println("endWith: "+strNom.endsWith("Temps"));
+		System.out.println("endWith: "+strNom.endsWith("mps"));
 
+		System.out.println("replace: "+strNom.replace('T', 'P'));
+		System.out.println("replace: "+strNom.replace('T', 'u'));
 	}
 
 }
