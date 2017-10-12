@@ -6,7 +6,7 @@ public class EXBinToDec {
 
 		int iEx1,iEx2,iEx3,iEx4,iEx5,iEx6,iEx7;
 		short sEx1,sEx2,sEx3,sEx4,sEx5,sEx6,sEx7;
-		byte bEx1,bEx2,bEx3,b2Ex3,bEx4,bEx5,bEx6,bEx7;
+		byte bEx1,bEx2,b2Ex3,bEx4,bEx5,bEx6,bEx7,bEx3;
 		long lngEx6;
 		
 		iEx1=0b0111;//0b pour expliquer a la machine que l on ecrit du binraire
